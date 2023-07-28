@@ -3,7 +3,7 @@ import Info from "./Info";
 
 const MainBody = () => {
   return (
-    <div className="bg-body flex-grow min-h-screen p-10">
+    <div className="bg-body flex-grow min-h-screen p-5 md:p-10">
       <Info />
       <Form />
     </div>
